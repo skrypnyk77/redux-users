@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1.2em;
+  font-family: "Exo 2", sans-serif;
+  
+}
+
+.main-wrapper {
+  margin: 30px;
+}
+
+.main-wrapper .main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-wrapper .main-container .ordered-persons {
+  text-align: center;
+  width: 100px;
+  height: 180px;
+}
+
+.main-wrapper .main-container .ordered-persons .ordered-persons__title {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+
+.main-wrapper .main-container .ordered-persons div {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.page-numbers {
+  list-style: none;
+  display: flex;
+}
+
+.page-numbers li {
+  margin-right: 0.5em;
+  font-size: 24px;
+  font-weight: 700;
+  user-select: none;
+  cursor: pointer;
+  list-style-type: none;
+  border: 2px solid #000;
+  padding: 5px 7px;
+}
+
+.users-list {
+  margin-right: 30px;
+}
+
+.users-list .user-profile {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid darkgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.users-list .user-profile .main-info {
+  margin-right: 50px;
+  text-align: center;
+}
+
+.users-list .user-profile .main-info img {
+  width: 100px;
+  height: 100px;
+}
+
+.users-list .user-profile .main-info p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.users-list .user-profile .description p {
+  margin: 10px;
+}
+
+.users-list .user-profile .description p:last-child {
+  font-size: 16px;
+}
